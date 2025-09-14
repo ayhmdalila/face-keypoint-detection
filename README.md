@@ -88,7 +88,7 @@ libxcb1 libx11-xcb1 libxcb-glx0 libxcb-xinerama0 libxcb-render0 libxcb-shape0 li
 
 ## 📜 License
 
-This project is open-source and available under the MIT License.
+This project is open-source.
 
 ---
 
