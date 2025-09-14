@@ -2,6 +2,7 @@
 
 This project uses [MediaPipe](https://mediapipe.dev/) and [OpenCV](https://opencv.org/) to detect and visualize facial landmarks in video frames. It leverages MediaPipe's FaceMesh model to track keypoints and overlays them on the input video.
 
+![ezgif com-combine](https://github.com/user-attachments/assets/33b91d54-13a1-4c8c-a494-590f7a54205e)
 
 
 ## 📦 Features
