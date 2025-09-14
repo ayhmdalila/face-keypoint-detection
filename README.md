@@ -2,7 +2,7 @@
 
 This project uses [MediaPipe](https://mediapipe.dev/) and [OpenCV](https://opencv.org/) to detect and visualize facial landmarks in video frames. It leverages MediaPipe's FaceMesh model to track keypoints and overlays them on the input video.
 
----
+
 
 ## 📦 Features
 
@@ -11,7 +11,7 @@ This project uses [MediaPipe](https://mediapipe.dev/) and [OpenCV](https://openc
 - Dockerized setup for easy deployment
 - Qt-based GUI rendering inside container (with X11 support)
 
----
+
 
 ## 🚀 Getting Started
 
@@ -23,7 +23,7 @@ This project uses [MediaPipe](https://mediapipe.dev/) and [OpenCV](https://openc
   - On Windows (WSL): use [VcXsrv](https://sourceforge.net/projects/vcxsrv/) or [X410](https://x410.dev/)
   - On macOS: use [XQuartz](https://www.xquartz.org/)
 
----
+
 
 ## 🐳 Run with Docker
 
@@ -61,7 +61,7 @@ face-keypoint-detection/
 └── muhammad_ali.mkv  # Replace with your own video file
 ```
 
----
+
 
 ## 🧪 Usage
 
@@ -71,7 +71,7 @@ Once the container starts, it will:
 - Display the annotated video in a GUI window
 Press q to quit the video playback.
 
----
+
 
 ## 🛠 Troubleshooting
 
@@ -84,18 +84,18 @@ Plugin not loading: xcb not found
 Ensure the following packages are installed in the container:
 libxcb1 libx11-xcb1 libxcb-glx0 libxcb-xinerama0 libxcb-render0 libxcb-shape0 libxcb-shm0 libxrender1 libxext6 libxkbcommon-x11-0 libxcb-cursor0
 
----
+
 
 ## 📜 License
 
 This project is open-source.
 
----
+
 
 ## 🙌 Acknowledgments
 
 - MediaPipe
 - OpenCV
 
----
+
 
