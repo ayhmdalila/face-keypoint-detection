@@ -49,25 +49,32 @@ docker run -e DISPLAY=$DISPLAY \
            --net=host \
            face-keypoint-tracking
 
+```
 
+## 📂 Project Structure
 
-📂 Project Structure
+```
 face-keypoint-detection/
 ├── Dockerfile
 ├── requirements.txt
 ├── main.py
 └── muhammad_ali.mkv  # Replace with your own video file
+```
 
+---
 
+## 🧪 Usage
 
-🧪 Usage
 Once the container starts, it will:
 - Load the video file muhammad_ali.mkv
 - Detect facial landmarks frame-by-frame
 - Display the annotated video in a GUI window
 Press q to quit the video playback.
 
-🛠 Troubleshooting
+---
+
+## 🛠 Troubleshooting
+
 Qt plugin error: Could not connect to display
 Make sure:
 - Your X11 server is running
@@ -77,15 +84,18 @@ Plugin not loading: xcb not found
 Ensure the following packages are installed in the container:
 libxcb1 libx11-xcb1 libxcb-glx0 libxcb-xinerama0 libxcb-render0 libxcb-shape0 libxcb-shm0 libxrender1 libxext6 libxkbcommon-x11-0 libxcb-cursor0
 
-
+---
 
-📜 License
+## 📜 License
+
 This project is open-source and available under the MIT License.
 
-🙌 Acknowledgments
+---
+
+##🙌 Acknowledgments
+
 - MediaPipe
 - OpenCV
 
 ---
 
-
