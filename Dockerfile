@@ -25,4 +25,4 @@ RUN pip install -r requirements.txt --no-cache-dir --default-timeout=300000 --re
 COPY . .
 
 # Command to run the application
-CMD ["python", "main.py"]
+CMD ["python", "app.py"]
